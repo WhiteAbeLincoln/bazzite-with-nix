@@ -22,3 +22,6 @@ dnf5 install -y tmux
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+
+# create an empty nix folder to mount the nix store in
+mkdir /nix
